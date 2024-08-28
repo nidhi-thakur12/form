@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <table border="1px" >
+            <form name="my form">
+                <tr >
+                    <td height="40px" width="300px" bgcolor="lightblue"><b><center>Name</b></center></b></td>
+                    <td height="40px" width="300px" bgcolor="lightblue"><b><center>Value</center></b></td>
+                </tr>
+                <tr>
+                   <td>Name</td>
+                   <td><input type="text" name="name" size="40px"></td>
+                </tr>
+                <tr>
+                    <td>Sex</td>
+                    <td><input type="radio" name="sex"  size="40px">Male<br>
+                        <input type="radio" name="sex"  size="40px" value="female " checked>Female
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>Eye color</td>
+                    <td><select name="color">
+                        <option selected disabled>--color--</option>
+                        <option>blue</option>
+                        <option>green</option>
+                        <option>red</option>
+                        <option>brown</option>
+                    </select>
+                    </td>
+                 </tr>
+                 <td>Check all that apply</td>
+                    <td><input type="checkbox" name="cb"  size="40px">Over 6 feet tall<br>
+                        <input type="checkbox" name="cb"  size="40px" >Over 200 pounds 
+                    </td>
+                 </tr>
+                 <tr>
+                    <td  colspan="2" >Describe your athletic ability<br>
+                    <textarea name="describe" rows="10" cols="80"></textarea>   
+                    </td>     
+                 </tr>
+                 <tr>
+                    <th colspan="2" > <button type="submit"><b>Enter my information</b></button</th>
+                 </tr>
+
+            </form>
+        </table>
+    </center>
+</body>
+</html>
